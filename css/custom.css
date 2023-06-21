@@ -1,0 +1,29 @@
+
+.logo-box {
+    /* width: 250px; */
+    height: auto;
+  }
+  
+  .logo-box a img {
+    width: 200px;
+  }
+  
+  /* .footer-widget:nth-child(2) {
+    width: 200px;
+    height: auto;
+  } */
+  
+  .footer-widget:nth-child(1) a img {
+    width: 150px;
+  }
+  
+  @media (max-width: 460px) {
+    .site-footer__bottom .inner-container {
+      display: block !important;
+    }
+  }
+  @media (max-width: 991px) {
+    .site-footer__upper {
+      padding-bottom: 0 !important;
+    }
+  }
